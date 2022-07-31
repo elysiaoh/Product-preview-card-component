@@ -1,0 +1,67 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background:hsl(30, 38%, 92%);
+}
+
+p{
+  font-family: montserrat;
+  color: grey;
+}
+
+h1{
+  font-family: fraunces;
+}
+
+h2{
+  font-family: fraunces;
+  color: hsl(158, 36%, 37%);
+  font-size: 30px;
+}
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+}
+
+.perfume{
+  border-radius: 15px 0px 0px 15px;
+}
+
+.textbox{
+  background: white;
+  padding: 30px;
+  width: 26%;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.discount{
+  display: inline;
+  margin-right: 15px;
+}
+
+.original{
+  display: inline;
+  text-decoration: line-through;
+  font-size: 15px;
+  
+}
+
+.addtoCart{
+  margin-top: 20px;
+  background-color:hsl(158, 36%, 37%);
+  font-family: montserrat;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 12%;
+}
+
+.addtoCart:hover{
+  background-color: #005858;
+}
